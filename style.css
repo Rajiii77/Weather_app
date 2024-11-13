@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #87cefa, #B0E0E6, #d1e9fc);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .weathercont {
+    width: 500px;
+    background-color: rgba(135, 206, 250, 0.3);
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    align-items: center;
+    height:550px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.weathercont2{
+    width:440px;
+    height:550px;
+    background-color: #87cefa51;
+    padding-top:33px;
+   padding-bottom:33px;
+   padding-right: 33px;
+   padding-left: 13px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+    margin:30px;
+    display:none;
+}
+.locinput{
+    width:270px;
+    height:35px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.searchbtn{
+    width:100px;
+    height:35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #65aad8;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.searchbtn:hover{
+    background-color: #75afd5;
+}
+.locinput:focus{
+    border: 1px solid #75c5f7d1;
+    outline: #87cefa;
+}
+
+
+
+.box1 {
+    background-color: #71b0da;
+    width: 200px;
+    height: 140px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    font-size: bold;
+}
+.box2 {
+    background-color: #71b0da;
+    width: 200px;
+    height: 140px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    font-size: bold;
+}
+.box3 {
+    background-color: #71b0da;
+    width: 200px;
+    height: 140px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    font-size: bold;
+}
+.box4 {
+    background-color: #71b0da;
+    width: 200px;
+    height: 140px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    font-size: bold;
+}
+
+.boxx{
+    background-color: #71b0da;
+    width: 390px;
+    height: 162px;
+    border-radius: 7px;
+    margin-left: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    font-size: bold;
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardd {
+    background-color: #71b2da;
+    width: 380px;
+    height: 425px;
+    color: #fefefe;
+    border-radius: 7px;
+    margin: 0;  /* Remove margin to prevent layout shifts */
+    padding: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ensure no extra padding */
+}
+
+
+.row {
+    margin: 0; /* Override Bootstrap default row margin */
+    padding: 0; /* Remove padding if unnecessary */
+}
+
+.citycls{
+    color:rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.humcls{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    display: none;
+}
+.tempcls{
+    color:rgb(255, 255, 255);
+    font-size: 3.4rem;
+    
+}
+.desccls{
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    display: none;
+}
+.emojicls{
+    font-size: 7rem;
+}
+.humid{
+    font-size: 2.4rem;
+}
+.tecon{
+    font-size: 3.5rem;
+}
+.humcon{
+    font-size: 3.5rem;
+    padding-top:5px;
+}
